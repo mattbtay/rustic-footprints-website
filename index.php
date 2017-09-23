@@ -83,6 +83,19 @@
 
   </div>
 
+  <div class="callout">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col d-flex justify-content-center align-items-center">
+          <p class="callout__message">Make your reservation now!</p>
+          <a class="btn btn-primary btn-lg" href="#">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
