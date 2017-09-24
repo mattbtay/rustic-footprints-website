@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,400,700');
+
 @import '_variables';
+@import '_typography';
 @import '_button';
+@import '_layout';
 @import '_header';
 @import '_nav';
 @import '_hero';
 @import '_callout';
+@import '_gallery';
+
+body {
+  font-family: 'Dosis', sans-serif;
+}

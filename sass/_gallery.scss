@@ -1,0 +1,29 @@
+.gallery{}
+
+.gallery__item {
+  position:relative;
+  z-index: 1;
+  flex-grow:1;
+}
+
+.gallery__itemInfo {
+  z-index:0;
+  background:rgba(165,42,42,.45);
+  position:absolute;
+  top:-100%;
+  left:0;
+  width:100%;
+  height:100%;
+  padding:15px;
+  transition: top .5s cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
+  color:#fff;
+  display:none!important;
+}
+
+.gallery__itemInfo--in {
+  top:0;
+}
+
+.gallery__image {
+  width:100%;
+}

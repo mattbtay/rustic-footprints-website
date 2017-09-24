@@ -2,4 +2,6 @@
   padding:5rem;
   background:url('../img/header-bg.png') center center brown;
   background-size: cover;
+  position:relative;
+  z-index: 3;// used to make sure it's on top of the info for the hover gallery feature
 }

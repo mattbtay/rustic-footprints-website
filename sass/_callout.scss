@@ -1,10 +1,14 @@
 .callout {
-  background:brown;
+  background:#fff;
   padding:1.5rem;
+  position:relative;
+  z-index: 2;// used to make sure it's on top of the gallery hover feature
 }
 
 .callout__message {
   margin-bottom:0;
-  color:#fff;
+  color:brown;
+  font-size:1.5rem;
   margin-right:2rem;
+  font-weight:400;
 }
