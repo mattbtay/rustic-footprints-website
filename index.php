@@ -185,25 +185,35 @@
   <div class="section section--bg contact">
     <div class="container">
       <div class="row">
+
+        <div class="col-sm-7">
+
+          <p>hello world</p>
+
+        </div>
+
+
+        <div class="col-sm-5">
+
         <form class="" action="" method="">
-          <div class="form-group row">
-            <div class="col-sm-4">
-              <div class="row">
-                <div class="col-sm-12">
-                  <input type="text" name="" class="form-control" placeholder="Name" value="">
-                </div>
-                <div class="col-sm-12">
-                  <input type="text" name="" class="form-control" placeholder="Email Address" value="">
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="form-group">
-                <textarea class="form-control" rows="3" name="name" placeholder="Do you have a comment or question? Please let us know!"cols="80"></textarea>
-              </div>
+
+          <div class="form-group">
+
+            <input type="text" name="" class="form-control" placeholder="Name" value="">
+
+            <input type="text" name="" class="form-control" placeholder="Email Address" value="">
+
+            <textarea class="form-control" rows="3" name="name" placeholder="Do you have a comment or question? Please let us know!"cols="80"></textarea>
+
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <input type="submit" name="" class="btn btn-primary" value="Send">
             </div>
           </div>
         </form>
+
+      </div>
       </div>
     </div>
   </div>
